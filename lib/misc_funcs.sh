@@ -136,7 +136,7 @@ function check_stack() {
     $(clear_cached_files)
   fi
 
-  echo "${STACK}" > "${cache_path}/stack"
+  echo "heroku-22" > "${cache_path}/stack"
 }
 
 # remove any cache files that are not under the stack-based
