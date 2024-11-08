@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 erlang_builds_url() {
+  STACK="heroku-22"
   case "${STACK}" in
     "heroku-20")
       erlang_builds_url="https://builds.hex.pm/builds/otp/ubuntu-20.04"
@@ -21,6 +22,7 @@ fetch_elixir_versions() {
 }
 
 fetch_erlang_versions() {
+  STACK="heroku-22"
   case "${STACK}" in
     "heroku-20")
       url="https://builds.hex.pm/builds/otp/ubuntu-20.04/builds.txt"

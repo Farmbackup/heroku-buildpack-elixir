@@ -1,3 +1,5 @@
+STACK="heroku-22"
+
 # Outputs log line
 #
 # Usage:
