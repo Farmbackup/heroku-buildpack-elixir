@@ -60,8 +60,6 @@ hook_pre_app_dependencies
 app_dependencies
 copy_hex
 
-# export PATH="$(runtime_rust_path)/cargo/bin:$PATH"
-
 hook_pre_compile
 compile_app
 hook_post_compile
