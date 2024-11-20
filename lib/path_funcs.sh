@@ -65,3 +65,11 @@ function erlang_cache_path() {
 function elixir_cache_path() {
   echo $(stack_based_cache_path)/elixir
 }
+
+function rust_cache_path() {
+  echo $(stack_based_cache_path)/rust
+}
+
+function runtime_rust_path() {
+  echo "$(runtime_platform_tools_path)/rust"
+}
