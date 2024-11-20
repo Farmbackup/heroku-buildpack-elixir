@@ -4,7 +4,6 @@ set -e -o pipefail
 
 # If this var is set to true later on,
 # then elixir and rebar will be rebuilt
-rust_changed=false
 erlang_changed=false
 rebar_changed=false
 elixir_changed=false
