@@ -31,7 +31,7 @@ function install_elixir() {
   cd $(build_elixir_path)
 
   if type "unzip" &> /dev/null; then
-    unzip -qo $(elixir_cache_path)/$(elixir_download_file)
+    unzip -q $(elixir_cache_path)/$(elixir_download_file)
   else
     jar xf $(elixir_cache_path)/$(elixir_download_file)
   fi
